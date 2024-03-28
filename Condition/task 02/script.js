@@ -20,9 +20,9 @@ console.log(num1+num2);
 /* 4.Create variables called name, surname and year assign values to them ('your name', 'your surname', ' your birth of year'),
   then add them to varibale name (info) and console info. */
 
-  let firstName = 'Xeyal'
-  let surName = 'Imanov'
-    let year = 2006
+  let firstName = 'Fuad'
+  let surName = 'Babayev'
+    let year = 2007
 let info = firstNameame +' '+ surName+' '+ year
 console.log(info);
 
@@ -95,7 +95,7 @@ let arr = ['a', 'b', 'c']
 
 
 const object1 = {
-    email: 'Ulfat@gmail.com',
+    email: 'fuadtb@gmail.com',
     info: {
         gender: 'Male',
         loc: {
@@ -123,7 +123,7 @@ delete object1.street
 // 6.Delete email, then add email inside the 'info'
 
 delete object1.email
-object1.email = {email: 'khayalai@gmail.com'}
+object1.email = {email: 'fuadtb@gmail.com'}
 
 // 7.Change uni name to 'BDU'
 
