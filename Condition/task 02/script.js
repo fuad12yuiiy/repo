@@ -100,9 +100,9 @@ const object1 = {
         gender: 'Male',
         loc: {
             city: "Baku",
-            street: 'Nizami 23',
+            street: 'Nizami ',
             education: {
-                "uni name": "BDU",
+                "uni name": "ADA",
             }
         }
     }
@@ -127,7 +127,7 @@ object1.email = {email: 'fuadtb@gmail.com'}
 
 // 7.Change uni name to 'BDU'
 
-object1.info.loc.education["uni name"]= 'BDU'
+object1.info.loc.education["uni name"]= 'ADA'
 
 // 8.Add degree:'bachelor' to education
 
@@ -135,7 +135,7 @@ object1.info.loc.education['degree'] = "bachelor"
 console.log(object1.info.loc.education["degree"]);
 
 // 9.Change street 'Nizami 23'
-object1.info.loc.city = 'Nazim Ismayilov'
+object1.info.loc.city = 'Azer Manafov'
 // 10.Find length of 'obj' (length property doesnt work with object, find another way)
 let length = Object.keys(object1).length;
 console.log(length);
